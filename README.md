@@ -6,29 +6,29 @@ This is a MERN stack application using the Google Books API and operates as a bo
 
 ## Screenshots
 
-![Screenshot](./assets/01-Login.jpg)
-
 Logging in
 
-![Screenshot](./assets/02-Search.jpg)
+![Screenshot](./assets/01-Login.jpg)
 
 Search for books
 
-![Screenshot](./assets/03-Saving.jpg)
+![Screenshot](./assets/02-Search.jpg)
 
 Saved two books
 
-![Screenshot](./assets/04-Saved.jpg)
+![Screenshot](./assets/03-Saving.jpg)
 
 Displaying saved books when clicking on "See Your Books"
 
-![Screenshot](./assets/05-Delete.jpg)
+![Screenshot](./assets/04-Saved.jpg)
 
 Deleted one of the books
 
-![Screenshot](./assets/06-MongoDB.jpg)
+![Screenshot](./assets/05-Delete.jpg)
 
-in MongoDB
+In MongoDB
+
+![Screenshot](./assets/06-MongoDB.jpg)
 
 ### Links:
 

@@ -6,6 +6,9 @@ const db = require('./config/connection');
 const routes = require('./routes');
 const { authMiddleware } = require("./utils/auth");
 
+// Load environment variables from .env file
+require('dotenv').config();
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({

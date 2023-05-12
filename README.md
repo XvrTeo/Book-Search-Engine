@@ -2,36 +2,36 @@
 
 ## Description
 
-This is a MERN stack application using the Google Books API and operates as a book search engine. Apart from book searching, users have the ability to register and log in to their accounts in order to save their favorite books.
+This is a MERN stack application using the Google Books API and operates as a book search engine. Using the starter code with a fully functioning Google Books API search engine built with a RESTful API, it has now been refactored to be a GraphQL API built with Apollo Server. Apart from book searching, users have the ability to register and log in to their accounts in order to save their favorite books.
 
 ## Screenshots
 
-Logging in
+Logging in:
 
 ![Screenshot](./assets/01-Login.jpg)
 
-Search for books
+Searching for books:
 
 ![Screenshot](./assets/02-Search.jpg)
 
-Saved two books
+Saved two books:
 
 ![Screenshot](./assets/03-Saving.jpg)
 
-Displaying saved books when clicking on "See Your Books"
+Displaying saved books when clicking on "See Your Books":
 
 ![Screenshot](./assets/04-Saved.jpg)
 
-Deleted one of the books
+Deleted one of the books:
 
 ![Screenshot](./assets/05-Delete.jpg)
 
-In MongoDB
+What's reflected in MongoDB:
 
 ![Screenshot](./assets/06-MongoDB.jpg)
 
 ### Links:
 
-1. URL of the functional, deployed application: https://dashboard.heroku.com/apps/ancient-anchorage-14832
+1. URL of the functional, deployed application: https://ancient-anchorage-14832.herokuapp.com/
 
 2. URL of the GitHub repository: https://github.com/XvrTeo/Book-Search-Engine

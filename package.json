@@ -12,13 +12,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@apollo/react-hooks": "*",
-    "apollo-boost": "*",
-    "apollo-server-express": "^3.12.0",
-    "graphql-tag": "*",
-    "react-bootstrap": "*"
-  },
   "devDependencies": {
     "concurrently": "^5.1.0"
   }

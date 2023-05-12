@@ -1,8 +1,7 @@
-// see SignupForm.js for comments
 import React, { useState, useEffect } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-import { useMutation } from '@apollo/react-hooks';
+import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
 import Auth from '../utils/auth';
 
@@ -37,17 +36,17 @@ const LoginForm = () => {
 
     try {
       const { data } = await login({
-        variables: { ...userFormData },
+        variables: { ...userFormData }
       });
 
-      console.log(data);
       Auth.login(data.login.token);
-    } catch (e) {
-      console.error(e);
+
+    } catch (err) {
+      console.error(err);
     }
 
-    // clear form values
     setUserFormData({
+      username: '',
       email: '',
       password: '',
     });
@@ -84,7 +83,10 @@ const LoginForm = () => {
           />
           <Form.Control.Feedback type='invalid'>Password is required!</Form.Control.Feedback>
         </Form.Group>
-        <Button disabled={!(userFormData.email && userFormData.password)} type='submit' variant='success'>
+        <Button
+          disabled={!(userFormData.email && userFormData.password)}
+          type='submit'
+          variant='success'>
           Submit
         </Button>
       </Form>
